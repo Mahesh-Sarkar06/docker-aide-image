@@ -1,0 +1,39 @@
+# Core AI/ML and Data Science
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+tensorflow
+torch
+torchvision
+torchaudio
+opencv-python
+xgboost
+lightgbm
+mediapipe
+pyttsx3
+gTTS
+albumentations
+
+
+# Core Data Engineering
+dbt-core
+dbt-snowflake
+dbt-bigquery
+pyarrow
+dask
+fastapi
+sqlalchemy
+psycopg2-binary
+pymysql
+
+
+# Cloud SDKs
+boto3
+azure-storage-blob
+azure-identity
+databricks-cli
+snowflake-connector-python
+google-cloud-storage

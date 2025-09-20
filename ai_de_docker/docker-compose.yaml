@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  aide-env:
+    build: .
+    ports:
+      - "8888:8888"
+      - "8080:8080"
+      - "9000:9000"
+    volumes:
+      - ./work:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LABS=yes
