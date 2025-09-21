@@ -26,10 +26,10 @@ docker --version
 docker system info
 
 
-# Download or clone this repository on your local machine
+### Download or clone this repository on your local machine
 
-# Run the docker image
+## Run the docker image
 docker build -t ai-de-env:latest .
 
-# Run the container
+## Run the container
 docker run -it -p 8888:8888 -v $(pwd):/workspace ai-de-env:latest
